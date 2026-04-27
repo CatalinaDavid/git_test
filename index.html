@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+        <div class="header-left">
+          <span class="material-symbols-outlined"> search </span>
+        </div>
+        <div class="header-right">
+          <span class="material-symbols-outlined"> circle_notifications </span>
+          <span class="material-symbols-outlined"> mail </span>
+          <span class="material-symbols-outlined"> account_circle </span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="image"><img src="pisici.jpg" </div>
+        <div class="sidebar-title">
+          <span class="material-symbols-outlined" onclick="closeSidebar()">
+            close
+          </span>
+        </div>
+        <div class="sidebar-brand">
+          <span class="material-symbols-outlined"> local_mall </span>
+          <span><b>Store</b></span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-items">
+            <span class="material-symbols-outlined"> dashboard </span>
+            <span>Dashboard</span>
+          </li>
+          <li class="sidebar-list-items">
+            <span class="material-symbols-outlined"> inventory_2 </span>
+            <span>Inventory</span>
+          </li>
+          <li class="sidebar-list-items">
+            <span class="material-symbols-outlined"> category </span>
+            <span>Categories</span>
+          </li>
+          <li class="sidebar-list-items">
+            <span class="material-symbols-outlined"> history </span>
+            <span>History</span>
+          </li>
+          <li class="sidebar-list-items">
+            <span class="material-symbols-outlined"> settings </span>
+            <span>Settings</span>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title"></div>
+        <h2>DASHBOARD</h2>
+        <div class="main-cards">
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <h2>Products</h2>
+              <span class="material-symbols-outlined"> inventory_2 </span>
+            </div>
+            <h1>240</h1>
+          </div>
+        </div>
+      </main>
+      <!-- End Main -->
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
